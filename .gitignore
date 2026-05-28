@@ -1,0 +1,19 @@
+# Local configuration files
+.claude/*.local.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if any scripts are added)
+node_modules/
+
+# Logs
+*.log
