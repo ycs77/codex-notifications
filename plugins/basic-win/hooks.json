@@ -1,0 +1,27 @@
+{
+  "description": "在 Codex 需要注意或停止時自動播放 Windows 提示音",
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -NoProfile -Command \"$p='${CLAUDE_PLUGIN_ROOT}/audios/notification.wav'; $p=($p -replace '^/([a-zA-Z])/', '$1:/') -replace '/', '\\'; (New-Object System.Media.SoundPlayer $p).PlaySync()\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -NoProfile -Command \"$p='${CLAUDE_PLUGIN_ROOT}/audios/stop.wav'; $p=($p -replace '^/([a-zA-Z])/', '$1:/') -replace '/', '\\'; (New-Object System.Media.SoundPlayer $p).PlaySync()\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
