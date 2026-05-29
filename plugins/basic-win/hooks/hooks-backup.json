@@ -1,7 +1,7 @@
 {
-  "description": "在 Codex 需要注意或停止時自動播放 Windows 提示音",
+  "description": "在 Codex 要求權限或停止時自動播放 Windows 提示音",
   "hooks": {
-    "Notification": [
+    "PermissionRequest": [
       {
         "hooks": [
           {

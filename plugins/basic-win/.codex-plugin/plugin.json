@@ -1,7 +1,7 @@
 {
   "name": "notification-basic-win",
   "version": "2.0.0",
-  "description": "[Windows] 基本鈴聲 - 在 Codex 需要互動、提問或停止時，自動播放提示音通知用戶",
+  "description": "[Windows] 基本鈴聲 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
   "author": {
     "name": "Lucas Yang",
     "email": "yangchenshin77@gmail.com"
@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "Notification Basic (Win)",
     "shortDescription": "[Windows] 基本鈴聲 - Codex 自動播放提示音",
-    "longDescription": "[Windows] 基本鈴聲 - 在 Codex 需要互動、提問或停止時，自動播放提示音通知用戶",
+    "longDescription": "[Windows] 基本鈴聲 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
     "developerName": "Lucas Yang",
     "category": "Productivity",
     "capabilities": [

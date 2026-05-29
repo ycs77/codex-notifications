@@ -1,10 +1,10 @@
 # Codex 提示音 - 基本鈴聲 (Windows)
 
-在 Codex 需要互動、提問或停止時，自動播放提示音通知用戶。
+在 Codex 要求權限或停止時，自動播放提示音通知用戶。
 
 ## 功能特色
 
-- 🔔 **Notification 事件**: 當 Codex 發送通知時播放提示音
+- 🔔 **PermissionRequest 事件**: 當 Codex 要求權限時播放提示音
 - 🛑 **Stop 事件**: 當 Codex 停止執行時播放提示音
 
 ## 安裝插件
@@ -16,13 +16,15 @@ codex plugin add notification-basic-win@ycs77-notifications
 
 ## 使用說明
 
-首次安裝或更新後，請重新開啟 Codex conversation，並在 Codex CLI 中執行 `/hooks` 檢查與信任這個插件提供的 hooks。Codex 會略過尚未信任的非 managed hook。
+首次安裝或更新後，請重新開啟 Codex conversation。若 Codex 顯示 `Hooks need review`，可以選擇 `2. Trust all and continue` 信任這個插件提供的 hooks。
+
+如果當下沒有成功信任，請在 Codex CLI 中執行 `/hooks`，再重新檢查並信任 hooks。Codex 會略過尚未信任的非 managed hook。
 
 ## Hook 觸發時機
 
-### Notification Hook
-- 當 Codex 發送用戶通知時觸發
-- 用於提醒用戶注意重要訊息
+### PermissionRequest Hook
+- 當 Codex 要求權限時觸發
+- 例如出現 `Would you like to run the following command?` 時播放提示音
 
 ### Stop Hook
 - 當 Codex 主代理準備停止執行時觸發
