@@ -16,7 +16,7 @@ codex plugin add notification-basic-win@ycs77-notifications
 
 ## 使用說明
 
-安裝插件後，它會自動運作，無需額外設定。
+首次安裝或更新後，請重新開啟 Codex conversation，並在 Codex CLI 中執行 `/hooks` 檢查與信任這個插件提供的 hooks。Codex 會略過尚未信任的非 managed hook。
 
 ## Hook 觸發時機
 

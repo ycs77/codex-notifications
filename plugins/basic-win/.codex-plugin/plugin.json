@@ -13,6 +13,7 @@
     "windows",
     "sound"
   ],
+  "hooks": "./hooks/hooks.json",
   "interface": {
     "displayName": "Notification Basic (Win)",
     "shortDescription": "[Windows] 基本鈴聲 - Codex 自動播放提示音",
