@@ -6,6 +6,7 @@
         "hooks": [
           {
             "type": "command",
+            "statusMessage": "Playing permission request notification sound",
             "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command '$p=Join-Path $env:PLUGIN_ROOT \"audios/notification.wav\"; $p=(Resolve-Path -LiteralPath $p).ProviderPath; [System.Media.SoundPlayer]::new($p).PlaySync()'",
             "timeout": 5
           }
@@ -17,6 +18,7 @@
         "hooks": [
           {
             "type": "command",
+            "statusMessage": "Playing task completion notification sound",
             "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command '$p=Join-Path $env:PLUGIN_ROOT \"audios/stop.wav\"; $p=(Resolve-Path -LiteralPath $p).ProviderPath; [System.Media.SoundPlayer]::new($p).PlaySync()'",
             "timeout": 5
           }
