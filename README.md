@@ -6,7 +6,7 @@
 
 | Name | Sources |
 |------|---------|
-| 基本鈴聲 | [Windows](./plugins/basic-win) |
+| 基本鈴聲 | [Windows](./plugins/basic-win) \| [WSL](./plugins/basic-wsl) |
 
 ## 在 Codex 中安裝
 
@@ -15,16 +15,6 @@
 ```
 codex plugin marketplace add ycs77/codex-notifications
 ```
-
-安裝插件後重新開啟 Codex，如果看到以下 hooks 信任提示：
-
-```
-Hooks need review
-1 hook is new or changed.
-Hooks can run outside the sandbox after you trust them.
-```
-
-可以選擇 `2. Trust all and continue` 信任插件提供的 hooks。若當下沒有成功信任，進入 Codex 後可執行 `/hooks`，再重新檢查並信任 hooks。
 
 ## 作者
 

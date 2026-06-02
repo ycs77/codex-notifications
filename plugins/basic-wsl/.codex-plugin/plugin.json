@@ -1,0 +1,30 @@
+{
+  "name": "notification-basic-wsl",
+  "version": "2.0.0",
+  "description": "[WSL] 基本鈴聲 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
+  "author": {
+    "name": "Lucas Yang",
+    "email": "yangchenshin77@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "notifications",
+    "wsl",
+    "linux",
+    "sound"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Notification Basic (WSL)",
+    "shortDescription": "[WSL] 基本鈴聲 - Codex 自動播放提示音",
+    "longDescription": "[WSL] 基本鈴聲 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
+    "developerName": "Lucas Yang",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [],
+    "brandColor": "#2563EB"
+  }
+}
