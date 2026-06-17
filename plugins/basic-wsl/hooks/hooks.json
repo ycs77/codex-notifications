@@ -1,5 +1,4 @@
 {
-  "description": "在 Codex 要求權限或停止時自動播放 WSL 提示音",
   "hooks": {
     "PermissionRequest": [
       {
