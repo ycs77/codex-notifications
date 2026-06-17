@@ -10,8 +10,6 @@
   "keywords": [
     "codex",
     "notifications",
-    "wsl",
-    "linux",
     "sound"
   ],
   "hooks": "./hooks/hooks.json",

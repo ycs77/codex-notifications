@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "statusMessage": "Playing permission request notification sound",
+            "command": "aplay \"${PLUGIN_ROOT}/audios/notification.wav\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "statusMessage": "Playing task completion notification sound",
+            "command": "aplay \"${PLUGIN_ROOT}/audios/stop.wav\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
