@@ -17,6 +17,30 @@
       "category": "Productivity"
     },
     {
+      "name": "notification-basic-mac",
+      "source": {
+        "source": "local",
+        "path": "./plugins/basic-mac"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-basic-linux",
+      "source": {
+        "source": "local",
+        "path": "./plugins/basic-linux"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "notification-basic-wsl",
       "source": {
         "source": "local",

@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "owner": {
+    "name": "Lucas Yang",
+    "email": "yangchenshin77@gmail.com"
+  },
+  "plugins": [
+    {
+      "id": "basic",
+      "name": "基本鈴聲",
+      "displayName": "Basic",
+      "platforms": ["Windows", "macOS", "Linux", "WSL"]
+    }
+  ],
+  "wsl": {
+    "prerequisites": "在 WSL 中使用此插件前，請先安裝 PulseAudio 工具：\n\n```bash\nsudo apt install pulseaudio-utils\n```"
+  }
+}

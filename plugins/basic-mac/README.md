@@ -23,10 +23,12 @@ codex plugin add notification-basic-mac@ycs77-notifications
 ## Hook 觸發時機
 
 ### PermissionRequest Hook
+
 - 當 Codex 要求權限時觸發
 - 例如出現 `Would you like to run the following command?` 時播放提示音
 
 ### Stop Hook
+
 - 當 Codex 主代理準備停止執行時觸發
 - 用於通知用戶任務已完成
 

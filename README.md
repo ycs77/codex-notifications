@@ -4,9 +4,11 @@
 
 ## 插件列表
 
+<!-- plugins:start -->
 | Name | Sources |
 |------|---------|
-| 基本鈴聲 | [Windows](./plugins/basic-win) \| [WSL](./plugins/basic-wsl) |
+| 基本鈴聲 | [Windows](./plugins/basic-win) \| [macOS](./plugins/basic-mac) \| [Linux](./plugins/basic-linux) \| [WSL](./plugins/basic-wsl) |
+<!-- plugins:end -->
 
 ## 在 Codex 中安裝
 
