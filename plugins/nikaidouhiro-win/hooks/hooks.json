@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "statusMessage": "Playing permission request notification sound",
+            "command": "powershell.exe -NoProfile -Command \"[System.Media.SoundPlayer]::new((Resolve-Path -LiteralPath (Join-Path $env:PLUGIN_ROOT 'audios/notification.wav')).ProviderPath).PlaySync()\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "statusMessage": "Playing task completion notification sound",
+            "command": "powershell.exe -NoProfile -Command \"[System.Media.SoundPlayer]::new((Resolve-Path -LiteralPath (Join-Path $env:PLUGIN_ROOT 'audios/stop.wav')).ProviderPath).PlaySync()\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

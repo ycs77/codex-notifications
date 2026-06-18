@@ -8,6 +8,8 @@
 | Name | Sources |
 |------|---------|
 | 基本鈴聲 | [Windows](./plugins/basic-win) \| [macOS](./plugins/basic-mac) \| [Linux](./plugins/basic-linux) \| [WSL](./plugins/basic-wsl) |
+| 櫻羽艾瑪 | [Windows](./plugins/sakurabaema-win) \| [macOS](./plugins/sakurabaema-mac) \| [Linux](./plugins/sakurabaema-linux) \| [WSL](./plugins/sakurabaema-wsl) |
+| 二階堂希羅 | [Windows](./plugins/nikaidouhiro-win) \| [macOS](./plugins/nikaidouhiro-mac) \| [Linux](./plugins/nikaidouhiro-linux) \| [WSL](./plugins/nikaidouhiro-wsl) |
 <!-- plugins:end -->
 
 ## 在 Codex 中安裝

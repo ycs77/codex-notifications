@@ -1,0 +1,28 @@
+{
+  "name": "notification-sakurabaema-linux",
+  "version": "2.0.0",
+  "description": "[Linux] 櫻羽艾瑪 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
+  "author": {
+    "name": "Lucas Yang",
+    "email": "yangchenshin77@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "notifications",
+    "sound"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "[Linux] 櫻羽艾瑪",
+    "shortDescription": "[Linux] 櫻羽艾瑪 - Codex 自動播放提示音",
+    "longDescription": "[Linux] 櫻羽艾瑪 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
+    "developerName": "Lucas Yang",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [],
+    "brandColor": "#2563EB"
+  }
+}

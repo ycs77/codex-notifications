@@ -51,6 +51,102 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "notification-sakurabaema-win",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sakurabaema-win"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-sakurabaema-mac",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sakurabaema-mac"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-sakurabaema-linux",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sakurabaema-linux"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-sakurabaema-wsl",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sakurabaema-wsl"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-nikaidouhiro-win",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nikaidouhiro-win"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-nikaidouhiro-mac",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nikaidouhiro-mac"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-nikaidouhiro-linux",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nikaidouhiro-linux"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "notification-nikaidouhiro-wsl",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nikaidouhiro-wsl"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

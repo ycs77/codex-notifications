@@ -10,6 +10,16 @@
       "name": "基本鈴聲",
       "displayName": "Basic",
       "platforms": ["Windows", "macOS", "Linux", "WSL"]
+    },
+    {
+      "id": "sakurabaema",
+      "name": "櫻羽艾瑪",
+      "platforms": ["Windows", "macOS", "Linux", "WSL"]
+    },
+    {
+      "id": "nikaidouhiro",
+      "name": "二階堂希羅",
+      "platforms": ["Windows", "macOS", "Linux", "WSL"]
     }
   ],
   "wsl": {
