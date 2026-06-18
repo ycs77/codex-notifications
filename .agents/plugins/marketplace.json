@@ -1,7 +1,7 @@
 {
   "name": "ycs77-notifications",
   "interface": {
-    "displayName": "Codex Notifications"
+    "displayName": "Codex 提示音合集"
   },
   "plugins": [
     {
