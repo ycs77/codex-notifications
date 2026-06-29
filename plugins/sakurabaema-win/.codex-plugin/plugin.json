@@ -1,6 +1,6 @@
 {
   "name": "notification-sakurabaema-win",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "[Windows] 櫻羽艾瑪 - 在 Codex 要求權限或停止時，自動播放提示音通知用戶",
   "author": {
     "name": "Lucas Yang",
