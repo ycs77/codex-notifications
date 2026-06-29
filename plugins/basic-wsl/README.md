@@ -24,7 +24,7 @@ codex plugin add notification-basic-wsl@ycs77-notifications
 
 ## 使用說明
 
-首次安裝或更新後，請重新開啟 Codex conversation。若 Codex 顯示 `Hooks need review`，可以選擇 `2. Trust all and continue` 信任這個插件提供的 hooks。
+首次安裝或更新後，請重新開啟 Codex 對話。若 Codex 顯示 `Hooks need review`，可以選擇 `2. Trust all and continue` 信任這個插件提供的 hooks。
 
 如果當下沒有成功信任，請在 Codex CLI 中執行 `/hooks`，再重新檢查並信任 hooks。Codex 會略過尚未信任的非 managed hook。
 
@@ -32,8 +32,8 @@ codex plugin add notification-basic-wsl@ycs77-notifications
 
 ### PermissionRequest Hook
 
-- 當 Codex 要求權限時觸發
-- 例如出現 `Would you like to run the following command?` 時播放提示音
+- 當權限對話框出現、需要用戶授權時觸發
+- 用於提醒用戶有權限需要授權
 
 ### Stop Hook
 
