@@ -60,9 +60,7 @@ function buildHooks(meta) {
 
   return {
     hooks: {
-      PermissionRequest: [
-        mkHook('notification.wav', 'Playing permission request notification sound'),
-      ],
+      PermissionRequest: [mkHook('notification.wav', 'Playing permission request notification sound')],
       Stop: [mkHook('stop.wav', 'Playing task completion notification sound')],
     },
   }
